@@ -6,6 +6,7 @@ body {
   background: -webkit-linear-gradient(to right, #904e95, #e96443);  /* Chrome 10-25, Safari 5.1-6 */
   background: linear-gradient(to right, #904e95, #e96443); 
   font-family: Arial, Helvetica, sans-serif;
+  padding-top: 50px;
 }
 ul {
   list-style: none;
