@@ -1,2 +1,2 @@
-# Link del proyecto
-https://fervent-turing-3c84f7.netlify.app/
+# Link del proyecto - Cotizador de seguros
+https://cotizadorseguros-ev.netlify.app/
