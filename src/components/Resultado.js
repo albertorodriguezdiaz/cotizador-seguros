@@ -33,7 +33,7 @@ const Resultado = ({cotizacion}) => {
             : (
                 <ResultadoCotizacion>
                     <TransitionGroup
-                        component="p"
+                        component="span"
                         className="resultado"
                     >
                         <CSSTransition
@@ -41,7 +41,7 @@ const Resultado = ({cotizacion}) => {
                             key={cotizacion}
                             timeout={{ enter: 1000, exit:1000 }}
                         >
-                            <TextoCotizacion>El Total es: $ {cotizacion}</TextoCotizacion>
+                            <TextoCotizacion>El Total es: $ <span>{cotizacion}</span></TextoCotizacion>
                         </CSSTransition>
                     </TransitionGroup>
                     
