@@ -56,6 +56,7 @@ function App() {
               />
             : null
           }
+          
           { !cargando 
             ? <Resultado 
               cotizacion={cotizacion}
